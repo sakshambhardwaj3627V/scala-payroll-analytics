@@ -45,10 +45,10 @@ final class ContractEmployee(
 
 private object PayrollValidation {
   def requirePositive(amount: BigDecimal, field: String): Unit =
-    if (amount <= 0) throw InvalidPayDataException(s"$field must be greater than zero.")
+    if (amount <= 0) throw InvalidPayDataException(s"${field} must be greater than zero.")
 
   def requireNonNegative(amount: BigDecimal, field: String): Unit =
-    if (amount < 0) throw InvalidPayDataException(s"$field cannot be negative.")
+    if (amount < 0) throw InvalidPayDataException(s"${field} cannot be negative.")
 }
 
 final case class PaySlip(
@@ -65,7 +65,7 @@ final case class PaySlip(
        |======================================
        |Employee : $employeeName ($employeeId)
        |Type     : $employeeType
-       |Gross pay: 4{currency.toUpperCase} 4{amount.bigDecimal.toPlainString}
+       |Gross pay: ${currency.toUpperCase} ${amount.bigDecimal.toPlainString}
        |======================================""".stripMargin
   }
 }
