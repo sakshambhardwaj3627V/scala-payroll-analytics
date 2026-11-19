@@ -1,0 +1,17 @@
+employee_id,employee_name,department,employee_type,gross_pay
+E101,Aarav Sharma,Engineering,Salaried,50000
+E102,Mira Patel,Engineering,Hourly,40000
+E103,Dev Kumar,Design,Contract,33500
+E104,Anaya Rao,Finance,Salaried,62000
+E105,Rohan Mehta,Engineering,Hourly,45500
+E106,Isha Nair,Design,Salaried,48000
+E107,Kabir Singh,Finance,Contract,38500
+E108,Sara Khan,Operations,Hourly,36000
+E109,Arjun Das,Operations,Salaried,52000
+E110,Neha Iyer,Finance,Hourly,42000
+E111,Vihaan Joshi,Design,Contract,41000
+E112,Tara Bose,Engineering,Salaried,68000
+E113,Reyansh Gupta,Operations,Contract,29500
+E114,Myra Kulkarni,Finance,Salaried,57500
+E115,Aditya Roy,Design,Hourly,39000
+E116,Kiara Menon,Engineering,Contract,44500
